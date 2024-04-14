@@ -1,0 +1,30 @@
+[0m10:44:22.477722 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D7221BD390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D7221BDAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D7221BD950>]}
+
+
+============================== 10:44:22.509165 | 327c5783-4603-408b-84ad-dba90fcb62ea ==============================
+[0m10:44:22.509165 [info ] [MainThread]: Running with dbt=1.7.11
+[0m10:44:22.511134 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Rohit Agarwal\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init dbt_training', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:44:22.513128 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/Rohit Agarwal/.dbt')}
+[0m10:44:22.514127 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m10:44:22.517117 [debug] [MainThread]: Starter project path: C:\Users\Rohit Agarwal\Desktop\DBT\dbt-env\Lib\site-packages\dbt\include\starter_project
+[0m10:44:22.587283 [info ] [MainThread]: 
+Your new dbt project "dbt_training" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:44:22.591614 [info ] [MainThread]: Setting up your profile.
+[0m10:46:37.804316 [info ] [MainThread]: No sample profile found for sqlserver.
+[0m10:46:37.806642 [debug] [MainThread]: Command `dbt init` succeeded at 10:46:37.806642 after 135.37 seconds
+[0m10:46:37.807642 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D721C8AE90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D71C71D510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D71C71C850>]}
+[0m10:46:37.808610 [debug] [MainThread]: Flushing usage events
