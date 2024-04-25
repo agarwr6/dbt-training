@@ -9,9 +9,11 @@ select
     ,c.[CustomerName]
     ,c.[Segment]
     ,c.[Country]
+    ,c.CustomerID
     ,p.[Category]
     ,p.[ProductName]
     ,p.[SubCategory]
+    ,p.ProductID
     from {{ref('raw_orders')}} as o
     LEFT JOIN {{ref('raw_customer')}} as c
     ON o.[CustomerID] = c.CustomerID
