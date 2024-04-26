@@ -1,8 +1,2 @@
-{{
-    config(
-        materialized = 'table'
-    )
-}}
-
 select *
-FROM [raw].[dbo].[product]
+FROM {{source('globalmart','product')}}

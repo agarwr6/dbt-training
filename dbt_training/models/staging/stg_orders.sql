@@ -15,7 +15,7 @@ select
     ,p.[SubCategory]
     ,p.ProductID
     from {{ref('raw_orders')}} as o
-    LEFT JOIN {{ref('raw_customer')}} as c
+    LEFT JOIN {{ref('raw_customers')}} as c
     ON o.[CustomerID] = c.CustomerID
     LEFT JOIN {{ref('raw_product')}} p
     ON p.ProductID = o.ProductID
